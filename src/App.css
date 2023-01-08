@@ -1,0 +1,20 @@
+.background{
+    top: 0px;
+left: 0px;
+width: 1920px;
+height: 1080px;
+background: #EBF2F5 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
+
+@media (max-width: 435px){
+    .background{
+        top: 0px;
+        left: 0px;
+        width: 428px;
+        height: 3025px;
+        background: #F1F7F9 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+}

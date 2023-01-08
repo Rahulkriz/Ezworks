@@ -1,0 +1,82 @@
+.details_bar {
+  top: 72px;
+  left: 537px;
+  width: 1383px;
+  height: 204px;
+  box-shadow: 0px 1px 6px #00000029;
+  opacity: 1;
+  position: absolute;
+  background-color: #ffffff;
+}
+.pdf_icon {
+  top: 88px;
+  left: 559px;
+  color: #f20020;
+  opacity: 1;
+  position: absolute;
+}
+
+.details_name {
+  top: 100px;
+  left: 606px;
+  opacity: 1;
+  position: absolute;
+  font-size: 20px;
+}
+
+.group_118 {
+  top: 152px;
+  left: 553px;
+  width: 110px;
+  height: 42px;
+  background-image: url(../assets/Group118.png);
+  opacity: 1;
+  position: absolute;
+}
+
+.group_119 {
+  top: 152px;
+  left: 1027px;
+  width: 148px;
+  height: 99px;
+  opacity: 1;
+  background-image: url(../assets/Group119.png);
+  position: absolute;
+}
+
+.group_121 {
+  top: 218px;
+  left: 553px;
+  width: 106px;
+  height: 42px;
+  background-image: url(../assets/Group121.png);
+  opacity: 1;
+  position: absolute;
+}
+
+.edit_btn {
+  top: 90px;
+  left: 1748px;
+  width: 156px;
+  height: 41px;
+  background: #3cc3f2 0% 0% no-repeat padding-box;
+  border: 1px solid #3cc3f2;
+  border-radius: 8px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  position: absolute;
+}
+@media (max-width: 428px) {
+  .details_bar,
+  .details_name,
+  .edit_btn,
+  .group_118,
+  .group_119,
+  .group_121,
+  .pdf_icon {
+    visibility: hidden;
+  }
+}

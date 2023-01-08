@@ -1,0 +1,151 @@
+.client_main {
+  top: 0px;
+  left: 72px;
+  width: 465px;
+  height: 109px;
+  box-shadow: 0px 1px 6px #00000029;
+  opacity: 1;
+  position: absolute;
+  background-color: #ffffff;
+}
+.client_box {
+  top: 16px;
+  left: 80px;
+  width: 107px;
+  height: 44px;
+  opacity: 1;
+  position: absolute;
+  color: #112949;
+  font-size: 36px;
+  background-color: #ffffff;
+}
+
+.sort_icon {
+  top: 36px;
+  left: 195px;
+  width: 19px;
+  height: 16px;
+  color: #3cc3f2;
+  opacity: 1;
+  position: absolute;
+}
+
+.creation_time {
+  top: 33px;
+  left: 224px;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #3cc3f2;
+  opacity: 1;
+  position: absolute;
+}
+
+.plus_square {
+  top: 21px;
+  left: 498px;
+  height: 30px;
+  width: 30px;
+  color: #3cc3f2;
+  opacity: 1;
+  position: absolute;
+}
+
+.search_bar {
+  background-image: url(../assets/Group470.png);
+  top: 68px;
+  left: 80px;
+  width: 449px;
+  height: 33px;
+  position: absolute;
+}
+.month {
+  top: 109px;
+  left: 72px;
+  width: 465px;
+  height: 31px;
+  background-image: url(../assets/Group76.png);
+  opacity: 1;
+  position: absolute;
+}
+
+@media (max-width: 428px) {
+  .client_box,
+  .client_main,
+  .creation_time,
+  .month,
+  .plus_square,
+  .search_bar,
+  .sort_icon {
+    visibility: hidden;
+  }
+  .client_main_mobile {
+    top: 60px;
+    left: 0px;
+    width: 428px;
+    height: 109px;
+    box-shadow: 0px 1px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+    background-color: #ffffff;
+    
+  }
+  .client_box_mobile {
+    top: 76px;
+    left: 8px;
+    width: 107px;
+    height: 44px;
+    opacity: 1;
+    position: absolute;
+    font-size: 36px;
+  }
+  .creation_time_mobile {
+    top: 93px;
+    left: 139px;
+    width: 98px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 16px/19px Louis George Café;
+    letter-spacing: 0px;
+    color: #3cc3f2;
+    opacity: 1;
+    position: absolute;
+  }
+  .month_mobile {
+    top: 169px;
+    left: 0px;
+    width: 428px;
+    height: 31px;
+    background: transparent url("img/Group 943.png") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    background-image: url(../assets/for_mobile/Group_943.png);
+  }
+  .plus_square_mobile {
+    top: 81px;
+    left: 395px;
+    width: 32px;
+    height: 32px;
+    color: #3cc3f2;
+    opacity: 1;
+    position: absolute;
+  }
+  .search_bar_mobile {
+    top: 128px;
+    left: 8px;
+    width: 428px;
+    height: 35px;
+    opacity: 1;
+    position: absolute;
+    background-image: url(../assets/for_mobile/Group_942.png);
+  }
+  .sort_icon_mobile {
+    top: 96px;
+    left: 115px;
+    width: 19px;
+    height: 16px;
+    opacity: 1;
+    position: absolute;
+    color: #3cc3f2;
+  }
+}

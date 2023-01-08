@@ -1,0 +1,82 @@
+.company_box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 80px;
+  width: 445px;
+  height: 62px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 2px 2px 3px #00000029;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.comp_box_line1{
+  margin-top: 1.5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company_name {
+  width: 251px;
+  height: 19px;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.ccde {
+  width: 44px;
+  height: 19px;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.comp_box_line2{
+  margin-top: 2.5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.entities {
+  width: 62px;
+  height: 19px;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.users {
+    width: 60px;
+    height: 19px;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.Active{
+  background-color: rgba(17, 41, 73, 1)!important;
+  color: rgba(156, 189, 235, 1)!important;
+
+}
+.Active-white{
+  color: rgba(243, 243, 243, 1)!important;
+}
+
+@media (max-width: 428px){
+  .company_box{
+    visibility: hidden;
+  }
+}
+

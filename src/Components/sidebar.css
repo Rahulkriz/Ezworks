@@ -1,0 +1,120 @@
+.barSideNav {
+  top: 0px;
+  left: 0px;
+  width: 72px;
+  height: 1080px;
+  background: transparent linear-gradient(90deg, #112949 0%, #000000 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 3px 0px 3px #00000029;
+  position: absolute;
+  opacity: 1;
+}
+
+img {
+  width: fit-content;
+  height: fit-content;
+}
+.ez_logo {
+  top: 32px;
+  left: 8px;
+  width: 56px;
+  height: 53px;
+  position: absolute;
+  opacity: 1;
+}
+.ez_logo img {
+  width: 56px;
+  height: 53px;
+  background: transparent;
+}
+
+.sideNaV_btn1 {
+  top: 120px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #eb9cba 0% 0% no-repeat padding-box;
+  position: absolute;
+  opacity: 1;
+}
+
+.sideNaV_btn1:hover{
+  top: 112px;
+left: 8px;
+width: 56px;
+height: 56px;
+opacity: 1;
+position: absolute;
+}
+.sideNaV_btn2 {
+  top: 184px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #eb9cba 0% 0% no-repeat padding-box;
+  position: absolute;
+  opacity: 1;
+}
+
+.sideNaV_btn2:hover{
+  top: 176px;
+left: 8px;
+width: 56px;
+height: 56px;
+opacity: 1;
+position: absolute;
+}
+.sideNaV_btn3 {
+  top: 248px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background: #eb9cba 0% 0% no-repeat padding-box;
+  position: absolute;
+  opacity: 1;
+}
+.sideNaV_btn3:hover{
+  top: 240px;
+left: 8px;
+width: 56px;
+height: 56px;
+opacity: 1;
+position: absolute;
+}
+
+@media (max-width: 428px) {
+  .barSideNav,
+  .sideNaV_btn1,
+  .sideNaV_btn2,
+  .sideNaV_btn3 {
+    display: none;
+  }
+  .barSideNav_mobile {
+    background-image: url(../assets/for_mobile/Rectangle_72.png);
+    top: -3px;
+    left: 0px;
+    width: 428px;
+    height: 59px;
+    box-shadow: -1px 1px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+  }
+  img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .ez_logo {
+    top: 12px;
+    left: 10px;
+    width: 38px;
+    height: 36px;
+    opacity: 1;
+    position: absolute;
+  }
+  .ez_logo img {
+    width: 37px;
+    height: 35px;
+    background: transparent;
+  }
+
+}

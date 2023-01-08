@@ -1,0 +1,28 @@
+.profile_bar {
+  top: 0px;
+  left: 537px;
+  width: 1383px;
+  height: 72px;
+  position: absolute;
+  box-shadow: 0px 1px 6px #00000029;
+  opacity: 1;
+  background-color: #FFFFFF;
+}
+
+.profile {
+  background-image: url(../assets/Profile-default.png);
+  /* Layout Properties */
+  top: 8px;
+  left: 1733px;
+  width: 171px;
+  height: 56px;
+  /* UI Properties */
+  opacity: 1;
+  position: absolute;
+  background-color: black;
+}
+@media (max-width: 428px){
+  .profile,.profile_bar{
+    visibility: hidden;
+  }
+}

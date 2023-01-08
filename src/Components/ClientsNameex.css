@@ -1,0 +1,81 @@
+.company_box_ex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 445px;
+    height: 62px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+  }
+  
+  .comp_box_line1_ex{
+    margin-top: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .company_name_ex {
+    width: 251px;
+    height: 19px;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+    font-size: 16px;
+  }
+  
+  .ccde_ex {
+    width: 44px;
+    height: 19px;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+    font-size: 16px;
+  }
+  
+  .comp_box_line2_ex{
+    margin-top: 2.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .entities_ex {
+    width: 62px;
+    height: 19px;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-size: 16px;
+  }
+  
+  .users_ex {
+      width: 60px;
+      height: 19px;
+      letter-spacing: 0px;
+      color: #707070;
+      opacity: 1;
+      font-size: 16px;
+  }
+
+  @media (max-width: 428px){
+    .company_box_ex{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-left: 8px;
+      width: 413px;
+      height: 62px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 2px 2px 3px #00000029;
+      border-radius: 8px;
+      opacity: 1;
+    }
+  }

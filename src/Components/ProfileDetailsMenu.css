@@ -1,0 +1,41 @@
+.profile_menu {
+  top: 276px;
+  left: 536px;
+  width: 1384px;
+  height: 32px;
+  box-shadow: 0px 1px 6px #00000029;
+  opacity: 1;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.pro_entity {
+  top: 282px;
+  left: 549px;
+  font-size: 16px;
+  color: rgb(75, 74, 74);
+  opacity: 1;
+  position: absolute;
+}
+.pro_invoice {
+  top: 282px;
+  left: 650px;
+  color: rgb(75, 74, 74);
+  opacity: 1;
+  position: absolute;
+}
+.pro_user {
+  top: 282px;
+  left: 800px;
+  color: rgb(75, 74, 74);
+  opacity: 1;
+  position: absolute;
+}
+@media (max-width: 428px) {
+  .profile_menu,
+  .pro_entity,
+  .pro_invoice,
+  .pro_user {
+    visibility: hidden;
+  }
+}
